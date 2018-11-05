@@ -1,5 +1,15 @@
 // Code goes here
+
 window.onload = function() {
+	// var sentiment = 0;
+	// function validate(){
+	// $.ajax({
+ //   	url: "./sentanalysis.py",
+ //   	success: function(response) {
+ //     // here you do whatever you want with the response variable
+ //   	}
+	// });
+	// }
   function addMsg(msg) {
     var message = document.getElementById("logs");
     var curr = document.createElement("div");
@@ -11,7 +21,7 @@ window.onload = function() {
     var botimg = document.createElement("div");
     botimg.setAttribute("class", "user-photo");
     var img = new Image();
-    img.src = "/img/smile.png";
+    img.src = "./img/smile.png";
     // botimg.width = 100;
     // botimg.height = 40;
     botimg.appendChild(img);
