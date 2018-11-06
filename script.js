@@ -1,5 +1,68 @@
 // Code goes here
-var positive = ["Yikes","Ooooh Phikeia", "Olivia Ure a cutie. I wanna have fun tonight and us cuties together it's magic bound to happen. Life is short, let's live in the moment. Let's party tonight"];
+//var positive = ["Yikes","Ooooh Phikeia", "Olivia Ure a cutie. I wanna have fun tonight and us cuties together it's magic bound to happen. Life is short, let's live in the moment. Let's party tonight"];
+//var positive = JSON.parse("text.json");
+var data = [
+	"yop",
+	"cashed",
+	"worst case",
+	"start going down to the chapter room",
+	"one",
+	"/wən/",
+	"1. stand",
+	"Avatar",
+	"Yuppie",
+	"0 days since cole had sex",
+	"easily",
+	"Yikes",
+	"where are the brothers",
+	"rahhhhhb",
+	"this is a dry house!",
+	"crank",
+	"BSQ",
+	"can we get 3's",
+	"TNP",
+	"where is the bong",
+	"riot juice",
+	"what are we drinking @Max Wu",
+	"reimbursements in the mailbox",
+	"basicaclly",
+	"Any rides from ctown?",
+	"Rob is sick today",
+	"nothing to report",
+	"loose jim",
+	"Move the CRT out of the great hall",
+	"Clean the f*cking annex",
+	"how does it not get there",
+	"elegance",
+	"Avatar",
+	"Felipe f*ck you",
+	"Bachelor board",
+	"ya like that? - daddy d",
+	"Unionize the land",
+	"4way with phi tau",
+	"Matthew Conte",
+	"you hate to see it",
+	"Phi Tall",
+	"go birds",
+	"Yiiiiiiiikes",
+	"a photo of kyle waddel",
+	"did Alessandro just chug a handle of Bartons",
+	"Ale",
+	"Avatar",
+	"f*ck off",
+	"port",
+	"miami fire",
+	"Phire",
+	"Mickey",
+	"Yikes",
+	"Ooooh Phikeia", 
+	"Olivia Ure a cutie. I wanna have fun tonight and us cuties together it's magic bound to happen. Life is short, let's live in the moment. Let's party tonight"
+];
+
+// var request = new XMLHttpRequest();
+//    request.open("GET", "./text.json", false);
+//    request.send(null)
+//    var positive = JSON.parse(request.responseText);
 
 window.onload = function() {
 	// var sentiment = 0;
@@ -36,7 +99,7 @@ window.onload = function() {
     curr.appendChild(botimg);
     curr.appendChild(text);
     message.appendChild(curr);
-    var positivesentence = positive[Math.floor(Math.random()*positive.length)];
+    var positivesentence = data[Math.floor(Math.random()*data.length)];
 
     var bot = document.createElement("div");
     bot.setAttribute("class", "chat bot");
