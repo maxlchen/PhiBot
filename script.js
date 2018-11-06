@@ -1,5 +1,5 @@
 // Code goes here
-var positive = ["Olivia Ure a cutie. I wanna have fun tonight and us cuties together it's magic bound to happen. Life is short, let's live in the moment. Let's party tonight"];
+var positive = ["Yikes","Ooooh Phikeia", "Olivia Ure a cutie. I wanna have fun tonight and us cuties together it's magic bound to happen. Life is short, let's live in the moment. Let's party tonight"];
 
 window.onload = function() {
 	// var sentiment = 0;
